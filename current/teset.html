@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Estilo IBGE</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="imagem.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="media/logo1-removebg-preview.png" alt="Logo">
+        </div>
+        <div id="openMenu">☰</div>
+        <nav>
+            <ul>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+                
+                <li><a href="#menu" id="closeMenu">X</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1 class="my-4" style="text-align: center;">Estude na ASN!</h1>
+
+        <!-- Carousel de Notícias -->
+        <div id="newsCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" >
+                <!-- Notícia 1 -->
+                 <div class="box-shadow" > 
+                    <div class="carousel-item active" >
+                    
+                        <img src="media/image1.png" class="d-block w-100" alt="Notícia 1"  >
+                        <div class="carousel-caption d-none d-md-block ">
+                            <h5 style="text-align: center;">Título da Notícia 1</h5>
+                            <p style="text-align: center;">Descrição curta da notícia 1.</p>
+                        </div>
+                    </div>
+                    <!-- Notícia 2 -->
+                    <div class="carousel-item">
+                        <img src="media/image2.png" class="d-block w-100" alt="Notícia 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 style="text-align: center;">Título da Notícia 2</h5>
+                            <p style="text-align: center;">Descrição curta da notícia 2.</p>
+                        </div>
+                    </div>
+                    <!-- Notícia 3 -->
+                    <div class="carousel-item">
+                        <img src="media/image3.png" class="d-block w-100" alt="Notícia 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 style="text-align: centter;">Título da Notícia 3</h5>
+                            <p style="text-align: center;">Descrição curta da notícia 3.</p>
+                        </div>
+                    </div>
+                    <!-- Notícia 4 -->
+                    <div class="carousel-item">
+                        <img src="media/image1.png" class="d-block w-100" alt="Notícia 4">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 style="text-align: center;">Título da Notícia 4</h5>
+                            <p style="text-align: center;">Descrição curta da notícia 4.</p>
+                        </div>
+                    </div>
+                </div>
+                 </div>
+                
+            <!-- Controles do Carousel -->
+            <a class="carousel-control-prev" href="#newsCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#newsCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+
+        <!-- Containers para Tutoriais, Eletivas e Protagonismo -->
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body" id="hover1">
+                        <h2 class="card-title" style="text-align: center;">Tutorias</h2>
+                        <p class="card-text" >Pequena descrição sobre os tutoriais disponíveis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" >
+                    <div class="card-body" id="hover2" >
+                        <h2 class="card-title" style="text-align: center;">Eletivas</h2>
+                        <p class="card-text">Pequena descrição sobre as eletivas oferecidas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body" id="hover3">
+                        <h2 class="card-title" style="text-align: center;">Protagonismo</h2>
+                        <p class="card-text">Pequena descrição sobre as iniciativas de protagonismo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center mt-4">
+        <p>&copy; 2024 ASN. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- jQuery, Popper.js, and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="carrosel.js"></script>
+</body>
+</html>
